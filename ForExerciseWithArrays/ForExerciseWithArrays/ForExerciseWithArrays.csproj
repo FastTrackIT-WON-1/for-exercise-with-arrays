@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>D:\FastTrackIT\Github2\for-exercise-with-arrays\ForExerciseWithArrays\ForExerciseWithArrays\ForExerciseWithArrays.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

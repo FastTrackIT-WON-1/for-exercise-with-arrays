@@ -19,6 +19,12 @@ namespace ForExerciseWithArrays
             Console.WriteLine($"Sum of elements={SumArrayElements(array)}");
         }
 
+        /// <summary>
+        /// Reads a number form the console.
+        /// <code>sample code</code>
+        /// </summary>
+        /// <param name="label">The label to display so that user knows what value to input.</param>
+        /// <returns>A number representing the <see cref="int"/> value of the input.</returns>
         private static int ReadNumber(string label)
         {
             if (string.IsNullOrEmpty(label))
@@ -114,6 +120,23 @@ namespace ForExerciseWithArrays
 
             int i, sum;
             for (i = 0, sum = 0; i < array.Length; sum += array[i], i++);
+
+            return sum;
+        }
+
+        private static int SumArrayElements2(int[] array)
+        {
+            if (array is null)
+            {
+                Console.WriteLine("Array argument is null!");
+                return 0;
+            }
+
+            int sum = 0;
+            foreach (int element in array)
+            {
+                sum += element;
+            }
 
             return sum;
         }

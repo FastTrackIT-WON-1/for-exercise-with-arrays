@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ForExerciseWithArrays</name>
+    </assembly>
+    <members>
+        <member name="M:ForExerciseWithArrays.Program.ReadNumber(System.String)">
+            <summary>
+            Reads a number form the console.
+            </summary>
+            <param name="label">The label to display so that user knows what value to input.</param>
+            <returns>A number representing the numeric value of the input.</returns>
+        </member>
+    </members>
+</doc>
